@@ -1,8 +1,8 @@
 {
-  "name": "blockchain",
+  "name": "minimal-node-ts-starter",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:lyhourchhen/blockchain.git",
+  "repository": "git@github.com:lyhourchhen/minimal-node-ts-starter.git",
   "author": "lyhourchhen <ukamilove66@gmail.com>",
   "license": "MIT",
   "scripts": {
