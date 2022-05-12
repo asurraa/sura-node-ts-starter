@@ -108,7 +108,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^17.0.30":
+"@types/node@npm:*, @types/node@npm:17.0.30":
   version: 17.0.30
   resolution: "@types/node@npm:17.0.30"
   checksum: b3cd2db6474aae3ddac5a312f340f6e4ca200429371e62cb74698fe7f23d7414d0200f643204ddfaa797846328539359e3797d7f2baaf3cdd643b159cf53baa6
@@ -124,7 +124,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/typescript@npm:^2.0.0":
+"@types/typescript@npm:2.0.0":
   version: 2.0.0
   resolution: "@types/typescript@npm:2.0.0"
   dependencies:
@@ -258,18 +258,6 @@ __metadata:
   checksum: ccd267956c58d2315f5d3ea6757cf09863c5fc703e50fbeb13a7dc849b812ef76e3cf9ca8f35a0c48498776a7478d7b4a0418e1e2b8cb9cb9731f2922aaad7f8
   languageName: node
   linkType: hard
-
-"blockchain@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "blockchain@workspace:."
-  dependencies:
-    "@types/node": ^17.0.30
-    "@types/typescript": ^2.0.0
-    nodemon: ^2.0.16
-    ts-node: ^10.7.0
-    typescript: ^4.6.4
-  languageName: unknown
-  linkType: soft
 
 "boxen@npm:^5.0.0":
   version: 5.1.2
@@ -1131,6 +1119,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"minimal-node-ts-starter@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "minimal-node-ts-starter@workspace:."
+  dependencies:
+    "@types/node": 17.0.30
+    "@types/typescript": 2.0.0
+    nodemon: 2.0.16
+    ts-node: 10.7.0
+    typescript: 4.6.4
+  languageName: unknown
+  linkType: soft
+
 "minimatch@npm:^3.0.4":
   version: 3.1.2
   resolution: "minimatch@npm:3.1.2"
@@ -1276,7 +1276,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nodemon@npm:^2.0.16":
+"nodemon@npm:2.0.16":
   version: 2.0.16
   resolution: "nodemon@npm:2.0.16"
   dependencies:
@@ -1722,7 +1722,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-node@npm:^10.7.0":
+"ts-node@npm:10.7.0":
   version: 10.7.0
   resolution: "ts-node@npm:10.7.0"
   dependencies:
@@ -1776,7 +1776,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:*, typescript@npm:^4.6.4":
+"typescript@npm:*, typescript@npm:4.6.4":
   version: 4.6.4
   resolution: "typescript@npm:4.6.4"
   bin:
@@ -1786,7 +1786,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@*#~builtin<compat/typescript>, typescript@patch:typescript@^4.6.4#~builtin<compat/typescript>":
+"typescript@patch:typescript@*#~builtin<compat/typescript>, typescript@patch:typescript@4.6.4#~builtin<compat/typescript>":
   version: 4.6.4
   resolution: "typescript@patch:typescript@npm%3A4.6.4#~builtin<compat/typescript>::version=4.6.4&hash=bda367"
   bin:
